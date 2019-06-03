@@ -36,10 +36,7 @@
     UPDATE Customers set postalCode = '11122' 
     where CustomerID = 92;    
 
-## list orders grouped by customer showing the number of orders per customer. _Rattlesnake Canyon Grocery_ should have 7 orders. (might be wrong! Will come back...)
-        SELECT * FROM [Orders]
-        WHERE customerid = 65  --not required but will bring back all of Rattlesnake Canyon Grocery orders
-        ORDER BY customerid;
+## list orders grouped by customer showing the number of orders per customer. _Rattlesnake Canyon Grocery_ should have 7 orders. 
 
 ## list customers names and the number of orders per customer. Sort the list by number of orders in descending order. _Ernst Handel_ should be at the top with 10 orders followed by _QUICK-Stop_, _Rattlesnake Canyon Grocery_ and _Wartian Herkku_ with 7 orders each.
 
